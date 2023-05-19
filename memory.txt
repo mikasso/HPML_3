@@ -1,0 +1,16 @@
+1.
+GPU:
+{'current': 82388480, 'peak': 1 077 654 272}
+
+2. GPU loss scaling and mixed precision
+print: Iter time:  8.005831003189087
+tf.print: Iter time:  8.005831003189087
+print: Iter time:  0.13203144073486328
+tf.print: Iter time:  0.13203144073486328
+print: Iter time:  0.1309976577758789
+tf.print: Iter time:  0.1309976577758789
+print: Iter time:  0.13199281692504883
+tf.print: Iter time:  0.13199281692504883
+print: Iter time:  0.1320326328277588
+tf.print: Iter time:  0.1320326328277588
+{'current': 61394432, 'peak': 409 080 064}                               

@@ -20,7 +20,7 @@ print: Iter time:  2.4380743503570557
 tf.print: Iter time:  2.4380743503570557
 print: Iter time:  2.4170026779174805
 tf.print: Iter time:  2.4170026779174805
-# GPU graph
+# GPU graph grappler
 print: Iter time:  7.167811632156372
 tf.print: Iter time:  7.167811632156372
 print: Iter time:  0.02199864387512207
@@ -31,14 +31,36 @@ print: Iter time:  0.05135536193847656
 tf.print: Iter time:  0.05135536193847656
 print: Iter time:  0.05158400535583496
 tf.print: Iter time:  0.05158400535583496
-# CPU graph
-print: Iter time:  4.379000425338745
-tf.print: Iter time:  4.379000425338745
-print: Iter time:  1.1489996910095215
-tf.print: Iter time:  1.1489996910095215
-print: Iter time:  1.1420032978057861
-tf.print: Iter time:  1.1420032978057861
-print: Iter time:  1.1590001583099365
-tf.print: Iter time:  1.1590001583099365
-print: Iter time:  1.1530017852783203
-tf.print: Iter time:  1.1530017852783203
+# CPU graph grappler
+print: Iter time:  4.831651210784912
+tf.print: Iter time:  4.831651210784912
+print: Iter time:  1.305999517440796
+tf.print: Iter time:  1.305999517440796
+print: Iter time:  1.294999599456787
+tf.print: Iter time:  1.294999599456787
+print: Iter time:  1.308002233505249
+tf.print: Iter time:  1.308002233505249
+print: Iter time:  1.2999987602233887
+tf.print: Iter time:  1.2999987602233887
+# XLA CPU constant folding = True
+print: Iter time:  30.722054719924927
+tf.print: Iter time:  30.722054719924927
+print: Iter time:  25.486001014709473
+tf.print: Iter time:  25.486001014709473
+print: Iter time:  25.65183663368225
+tf.print: Iter time:  25.65183663368225
+print: Iter time:  26.15130925178528
+tf.print: Iter time:  26.15130925178528
+print: Iter time:  25.72574758529663
+tf.print: Iter time:  25.72574758529663
+# XLA GPU constant folding = True
+print: Iter time:  34.064056158065796
+tf.print: Iter time:  34.064056158065796
+print: Iter time:  28.84860324859619
+tf.print: Iter time:  28.84860324859619
+print: Iter time:  28.784417390823364
+tf.print: Iter time:  28.784417390823364
+print: Iter time:  28.872578859329224
+tf.print: Iter time:  28.872578859329224
+print: Iter time:  29.038304567337036
+tf.print: Iter time:  29.038304567337036
