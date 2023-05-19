@@ -1,0 +1,22 @@
+# GPU eager 
+print: Iter time:  3.895756959915161
+tf.print: Iter time:  3.895756959915161
+print: Iter time:  0.1100311279296875
+tf.print: Iter time:  0.1100311279296875
+print: Iter time:  0.10868358612060547
+tf.print: Iter time:  0.10868358612060547
+print: Iter time:  0.11003327369689941
+tf.print: Iter time:  0.11003327369689941
+print: Iter time:  0.1099691390991211
+tf.print: Iter time:  0.1099691390991211
+# CPU eager
+print: Iter time:  2.555708169937134
+tf.print: Iter time:  2.555708169937134
+print: Iter time:  2.4419987201690674
+tf.print: Iter time:  2.4419987201690674
+print: Iter time:  2.4280006885528564
+tf.print: Iter time:  2.4280006885528564
+print: Iter time:  2.4380743503570557
+tf.print: Iter time:  2.4380743503570557
+print: Iter time:  2.4170026779174805
+tf.print: Iter time:  2.4170026779174805
