@@ -20,3 +20,25 @@ print: Iter time:  2.4380743503570557
 tf.print: Iter time:  2.4380743503570557
 print: Iter time:  2.4170026779174805
 tf.print: Iter time:  2.4170026779174805
+# GPU graph
+print: Iter time:  7.167811632156372
+tf.print: Iter time:  7.167811632156372
+print: Iter time:  0.02199864387512207
+tf.print: Iter time:  0.02199864387512207
+print: Iter time:  0.031996726989746094
+tf.print: Iter time:  0.031996726989746094
+print: Iter time:  0.05135536193847656
+tf.print: Iter time:  0.05135536193847656
+print: Iter time:  0.05158400535583496
+tf.print: Iter time:  0.05158400535583496
+# CPU graph
+print: Iter time:  4.379000425338745
+tf.print: Iter time:  4.379000425338745
+print: Iter time:  1.1489996910095215
+tf.print: Iter time:  1.1489996910095215
+print: Iter time:  1.1420032978057861
+tf.print: Iter time:  1.1420032978057861
+print: Iter time:  1.1590001583099365
+tf.print: Iter time:  1.1590001583099365
+print: Iter time:  1.1530017852783203
+tf.print: Iter time:  1.1530017852783203
